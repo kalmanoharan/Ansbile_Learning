@@ -1,0 +1,5 @@
+---
+- name: simple ping against a Local server
+  hosts: local
+  tasks:
+    - ping:
